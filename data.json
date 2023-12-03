@@ -1,0 +1,672 @@
+[
+    {
+      "QuestionID": "Question 1",
+      "Question": "What is the full name of OOP?",
+      "Options": [
+        "Object Oriented Programming",
+        "Object Oriented Program",
+        "Object Oriented Protocol",
+        "Object Oriented Procedure"
+      ],
+        "Answer": "Object Oriented Programming"
+    },
+    {
+        "QuestionID": "Question 2",
+        "Question": "What is the relation of inheratince?",
+        "Options": [
+          "Has a",
+          "Does a",
+          "Is a",
+          "Make a"
+        ],
+        "Answer": "Is a"
+    },
+    {
+        "QuestionID": "Question 3",
+        "Question": "All state & behavior is inherited by the ____ class.",
+        "Options": [
+          "Parent",
+          "Super",
+          "Child"
+        ],
+        "Answer": "Child"
+    },
+    {
+        "QuestionID": "Question 4",
+        "Question": "What is the main advantage of using inheritance in object-oriented programming?",
+        "Options": [
+          "Code reusability",
+          "Code encapsulation",
+          "Code efficiency",
+          "Code modularity"
+        ],
+        "Answer": "Code reusability"
+    },
+    {
+        "QuestionID": "Question 5",
+        "Question": "Inheritance allows a class to inherit properties and behaviors from another class. What are these properties and behaviors collectively called?",
+        "Options": [
+          "Attributes",
+          "Members",
+          "Inherited elements",
+          "Traits"
+        ],
+        "Answer": "Members"
+    },
+    {
+        "QuestionID": "Question 6",
+        "Question": "Which type of inheritance allows a class to inherit from more than one class?",
+        "Options": [
+          "Single Inheritance",
+          "Multiple Inheritance",
+          "Multilevel Inheritance",
+          "Hierarchical Inheritance"
+        ],
+        "Answer": "Multiple Inheritance"
+    },
+    {
+        "QuestionID": "Question 7",
+        "Question": "What is the term for the process of creating a new class by using existing class members?",
+        "Options": [
+          "Class expansion",
+          "Class duplication",
+          "Class derivation",
+          "Class instantiation"
+        ],
+        "Answer": "Class derivation"
+    },
+    {
+        "QuestionID": "Question 8",
+        "Question": "In Java, which keyword is used to implement inheritance?",
+        "Options": [
+          "derive",
+          "extends",
+          "inherit",
+          "inherits"
+        ],
+        "Answer": "extends"
+    },
+      
+    {
+        "QuestionID": "Question 9",
+        "Question": "What is the relation of aggregation?",
+        "Options": [
+          "Has a",
+          "Does a",
+          "Is a",
+          "Make a"
+        ],
+        "Answer": "Has a"
+    },
+    {
+        "QuestionID": "Question 10",
+        "Question": "What is the existance of aggregation?",
+        "Options": [
+          "Independent",
+          "Dependent",
+          "Both"
+        ],
+        "Answer": "Independent"
+    },
+    {
+        "QuestionID": "Question 11",
+        "Question": "What is aggregation in object-oriented programming?",
+        "Options": [
+          "A process of combining multiple classes",
+          "A process of creating new objects",
+          "A process of inheriting properties",
+          "A process of data encapsulation"
+        ],
+        "Answer": "A process of combining multiple classes"
+    },
+    {
+        "QuestionID": "Question 12",
+        "Question": "In aggregation, what term is used to describe the whole object composed of several parts?",
+        "Options": [
+          "Parent object",
+          "Composite object",
+          "Aggregate object",
+          "Container object"
+        ],
+        "Answer": "Composite object"
+    },
+    {
+        "QuestionID": "Question 13",
+        "Question": "Which of the following statements is true regarding the relationship in aggregation?",
+        "Options": [
+          "It represents a 'has a' relationship",
+          "It represents a 'is a' relationship",
+          "It represents a 'belongs to' relationship",
+          "It represents a 'controls' relationship"
+        ],
+        "Answer": "It represents a 'has a' relationship"
+    },
+    {
+        "QuestionID": "Question 14",
+        "Question": "What is composition in object-oriented programming?",
+        "Options": [
+          "A process of combining multiple classes",
+          "A process of creating new objects",
+          "A process of inheriting properties",
+          "A process of creating relationships"
+        ],
+        "Answer": "A process of combining multiple classes"
+    },
+    {
+        "QuestionID": "Question 15",
+        "Question": "In composition, what term is used to describe the whole object composed of several parts?",
+        "Options": [
+          "Parent object",
+          "Composite object",
+          "Aggregate object",
+          "Container object"
+        ],
+        "Answer": "Composite object"
+    },
+    {
+        "QuestionID": "Question 16",
+        "Question": "Which of the following statements is true regarding the relationship in composition?",
+        "Options": [
+          "It represents a 'has a' relationship",
+          "It represents a 'is a' relationship",
+          "It represents a 'belongs to' relationship",
+          "It represents a 'controls' relationship"
+        ],
+        "Answer": "It represents a 'has a' relationship"
+    },
+    {
+        "QuestionID": "Question 17",
+        "Question": "What happens to the component objects in composition when the composite object is destroyed?",
+        "Options": [
+          "Component objects are also destroyed",
+          "Component objects become independent",
+          "Component objects are preserved",
+          "Component objects are duplicated"
+        ],
+        "Answer": "Component objects are also destroyed"
+    },
+    {
+        "QuestionID": "Question 18",
+        "Question": "In composition, which term describes the strong ownership relationship between the composite and its components?",
+        "Options": [
+          "Association",
+          "Aggregation",
+          "Encapsulation",
+          "Containment"
+        ],
+        "Answer": "Containment"
+    },
+    {
+        "QuestionID": "Question 19",
+        "Question": "What is polymorphism in object-oriented programming?",
+        "Options": [
+          "A process of combining multiple classes",
+          "A process of creating new objects",
+          "A process of inheriting properties",
+          "A process of allowing objects to be treated as instances of their parent class"
+        ],
+        "Answer": "A process of allowing objects to be treated as instances of their parent class"
+    },
+    {
+        "QuestionID": "Question 20",
+        "Question": "Which type of polymorphism allows a single function name to represent multiple functions based on the number and types of its parameters?",
+        "Options": [
+          "Compile-time polymorphism",
+          "Runtime polymorphism",
+          "Method polymorphism",
+          "Parameter polymorphism"
+        ],
+        "Answer": "Compile-time polymorphism"
+    },
+    {
+        "QuestionID": "Question 21",
+        "Question": "In object-oriented programming, what is achieved when a subclass provides a specific implementation for a method that is already defined in its parent class?",
+        "Options": [
+          "Encapsulation",
+          "Abstraction",
+          "Inheritance",
+          "Method overriding"
+        ],
+        "Answer": "Method overriding"
+    },
+    {
+        "QuestionID": "Question 22",
+        "Question": "Which keyword in Java is used to achieve runtime polymorphism through method overriding?",
+        "Options": [
+          "override",
+          "virtual",
+          "final",
+          "super"
+        ],
+        "Answer": "override"
+    },
+    {
+        "QuestionID": "Question 23",
+        "Question": "Polymorphism allows objects of different classes to be treated as objects of a common base class. What is this principle called?",
+        "Options": [
+          "Inheritance",
+          "Abstraction",
+          "Encapsulation",
+          "Interface"
+        ],
+        "Answer": "Abstraction"
+    },
+    {
+        "QuestionID": "Question 24",
+        "Question": "What is the primary goal of designing OOP solutions?",
+        "Options": [
+          "Code efficiency",
+          "Code reusability",
+          "Code simplicity",
+          "Code optimization"
+        ],
+        "Answer": "Code reusability"
+    },
+    {
+        "QuestionID": "Question 25",
+        "Question": "What is the purpose of encapsulation in OOP design?",
+        "Options": [
+          "To hide the implementation details of a class",
+          "To make the class public",
+          "To expose all class members",
+          "To create multiple instances of a class"
+        ],
+        "Answer": "To hide the implementation details of a class"
+    },
+    {
+        "QuestionID": "Question 26",
+        "Question": "When designing OOP solutions, what is the significance of the 'Single Responsibility Principle'?",
+        "Options": [
+          "A class should have only one method",
+          "A class should have only one attribute",
+          "A class should have only one responsibility",
+          "A class should have only one constructor"
+        ],
+        "Answer": "A class should have only one responsibility"
+    },
+    {
+        "QuestionID": "Question 27",
+        "Question": "What role does inheritance play in the design of OOP solutions?",
+        "Options": [
+          "Promotes code encapsulation",
+          "Facilitates code reuse and extension",
+          "Minimizes the need for classes",
+          "Eliminates the need for interfaces"
+        ],
+        "Answer": "Facilitates code reuse and extension"
+    },
+    {
+        "QuestionID": "Question 28",
+        "Question": "In OOP design, what is the purpose of interfaces?",
+        "Options": [
+          "To define the implementation details of a class",
+          "To define a contract for classes that implement them",
+          "To restrict access to class members",
+          "To create multiple instances of a class"
+        ],
+        "Answer": "To define a contract for classes that implement them"
+    },
+    {
+        "QuestionID": "Question 29",
+        "Question": "When designing OOP solutions, what does the term 'polymorphism' refer to?",
+        "Options": [
+          "The ability to create multiple instances of a class",
+          "The ability to hide the implementation details of a class",
+          "The ability to represent objects as instances of their parent class",
+          "The ability of a function to operate on different types of parameters"
+        ],
+        "Answer": "The ability of a function to operate on different types of parameters"
+    },
+    {
+        "QuestionID": "Question 30",
+        "Question": "What is the significance of the 'Composition over Inheritance' principle in OOP design?",
+        "Options": [
+          "Favoring composition helps create more flexible and maintainable designs",
+          "Favoring inheritance helps create more flexible and maintainable designs",
+          "Composition and inheritance are equally important in OOP design",
+          "Composition is not relevant in OOP design"
+        ],
+        "Answer": "Favoring composition helps create more flexible and maintainable designs"
+    },
+    {
+        "QuestionID": "Question 31",
+        "Question": "Why is it important to consider the 'Open/Closed Principle' in OOP design?",
+        "Options": [
+          "To ensure that a class has only one responsibility",
+          "To allow modification of existing code without changing its source code",
+          "To restrict access to class members",
+          "To create multiple instances of a class"
+        ],
+        "Answer": "To allow modification of existing code without changing its source code"
+    },
+    {
+        "QuestionID": "Question 32",
+        "Question": "What role does abstraction play in the design of OOP solutions?",
+        "Options": [
+          "To hide the implementation details of a class",
+          "To expose all class members",
+          "To create multiple instances of a class",
+          "To define a high-level interface for a set of classes"
+        ],
+        "Answer": "To define a high-level interface for a set of classes"
+    },
+    {
+        "QuestionID": "Question 33",
+        "Question": "When designing OOP solutions, why is it important to consider the 'Dependency Inversion Principle'?",
+        "Options": [
+          "To promote tight coupling between classes",
+          "To minimize the use of interfaces",
+          "To promote high cohesion within a class",
+          "To reduce coupling between high-level and low-level modules"
+        ],
+        "Answer": "To reduce coupling between high-level and low-level modules"
+    },
+    {
+        "QuestionID": "Question 34",
+        "Question": "What is an abstract class in object-oriented programming?",
+        "Options": [
+          "A class that cannot be instantiated",
+          "A class with only private members",
+          "A class with no methods",
+          "A class that is sealed"
+        ],
+        "Answer": "A class that cannot be instantiated"
+    },
+    {
+        "QuestionID": "Question 35",
+        "Question": "What is the primary purpose of an abstract class?",
+        "Options": [
+          "To provide a blueprint for other classes",
+          "To restrict access to class members",
+          "To create multiple instances of a class",
+          "To hide the implementation details of a class"
+        ],
+        "Answer": "To provide a blueprint for other classes"
+    },
+    {
+        "QuestionID": "Question 36",
+        "Question": "Can an abstract class have concrete (non-abstract) methods?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only private methods",
+          "Yes, but only public methods"
+        ],
+        "Answer": "Yes, always"
+    },
+    {
+        "QuestionID": "Question 37",
+        "Question": "In Java, how do you declare an abstract class?",
+        "Options": [
+          "class AbstractClass { }",
+          "abstract class { }",
+          "abstract class AbstractClass { }",
+          "class abstract AbstractClass { }"
+        ],
+        "Answer": "abstract class AbstractClass { }"
+    },
+    {
+        "QuestionID": "Question 38",
+        "Question": "Can an abstract class have a constructor?",
+        "Options": [
+          "Yes, but only private constructors",
+          "No, never",
+          "Yes, but only public constructors",
+          "Yes, always"
+        ],
+        "Answer": "Yes, but only protected or public constructors"
+    },
+    {
+        "QuestionID": "Question 39",
+        "Question": "What is the keyword used to declare an abstract method in an abstract class?",
+        "Options": [
+          "method",
+          "abstract",
+          "virtual",
+          "function"
+        ],
+        "Answer": "abstract"
+    },
+    {
+        "QuestionID": "Question 40",
+        "Question": "Can an abstract class have both abstract and non-abstract (concrete) methods?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only private methods",
+          "Yes, but only public methods"
+        ],
+        "Answer": "Yes, always"
+    },
+    {
+        "QuestionID": "Question 41",
+        "Question": "In C#, can a class inherit from multiple abstract classes?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only if the abstract classes have the same methods",
+          "Yes, but only if the abstract classes are sealed"
+        ],
+        "Answer": "No, never"
+    },
+    {
+        "QuestionID": "Question 42",
+        "Question": "What is the purpose of providing a default implementation for an abstract method in an abstract class?",
+        "Options": [
+          "To force derived classes to override the method",
+          "To make the method optional for derived classes",
+          "To make the method private",
+          "To make the method static"
+        ],
+        "Answer": "To make the method optional for derived classes"
+    },
+    {
+        "QuestionID": "Question 43",
+        "Question": "What is the relationship between an abstract class and an interface in OOP?",
+        "Options": [
+          "An abstract class can implement an interface",
+          "An interface can inherit from an abstract class",
+          "There is no relationship between them",
+          "An abstract class and an interface are the same"
+        ],
+        "Answer": "An abstract class can implement an interface"
+    },
+    {
+        "QuestionID": "Question 44",
+        "Question": "What is an interface in object-oriented programming?",
+        "Options": [
+          "A class that cannot be instantiated",
+          "A class with only private members",
+          "A collection of methods with no implementation",
+          "A sealed class"
+        ],
+        "Answer": "A collection of methods with no implementation"
+    },
+    {
+        "QuestionID": "Question 45",
+        "Question": "Can a class implement multiple interfaces in most object-oriented programming languages?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only if the interfaces have the same methods",
+          "Yes, but only if the interfaces are sealed"
+        ],
+        "Answer": "Yes, always"
+    },
+    {
+        "QuestionID": "Question 46",
+        "Question": "In C#, how do you declare an interface?",
+        "Options": [
+          "interface MyInterface { }",
+          "class MyInterface { }",
+          "abstract class MyInterface { }",
+          "interface class MyInterface { }"
+        ],
+        "Answer": "interface MyInterface { }"
+    },
+    {
+        "QuestionID": "Question 47",
+        "Question": "What keyword is used to declare a method within an interface?",
+        "Options": [
+          "method",
+          "abstract",
+          "virtual",
+          "function"
+        ],
+        "Answer": "abstract"
+    },
+    {
+        "QuestionID": "Question 48",
+        "Question": "Can an interface have fields (member variables) in most object-oriented programming languages?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only private fields",
+          "Yes, but only public fields"
+        ],
+        "Answer": "No, never"
+    },
+    {
+        "QuestionID": "Question 49",
+        "Question": "In Java, can an interface contain default implementations for its methods?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only for private methods",
+          "Yes, but only for public methods"
+        ],
+        "Answer": "Yes, always"
+    },
+    {
+        "QuestionID": "Question 50",
+        "Question": "Can an interface be instantiated?",
+        "Options": [
+          "Yes, always",
+          "No, never",
+          "Yes, but only if it has a constructor",
+          "Yes, but only if it has concrete methods"
+        ],
+        "Answer": "No, never"
+    },
+    {
+        "QuestionID": "Question 51",
+        "Question": "What is the primary purpose of using interfaces in object-oriented programming?",
+        "Options": [
+          "To provide a blueprint for other classes",
+          "To hide the implementation details of a class",
+          "To define a contract for classes that implement them",
+          "To restrict access to class members"
+        ],
+        "Answer": "To define a contract for classes that implement them"
+    },
+    {
+        "QuestionID": "Question 52",
+        "Question": "What is the relationship between an interface and a class in OOP?",
+        "Options": [
+          "A class can implement multiple interfaces",
+          "An interface can inherit from a class",
+          "There is no relationship between them",
+          "A class and an interface are the same"
+        ],
+        "Answer": "A class can implement multiple interfaces"
+    },
+    {
+        "QuestionID": "Question 53",
+        "Question": "How does using interfaces promote code flexibility in OOP?",
+        "Options": [
+          "By allowing a class to have only one method",
+          "By allowing a class to have only private members",
+          "By enabling a class to implement multiple contracts",
+          "By preventing a class from having constructors"
+        ],
+        "Answer": "By enabling a class to implement multiple contracts"
+    },
+    {
+        "QuestionID": "Question 54",
+        "Question": "What is the purpose of generics in programming?",
+        "Options": [
+          "To create objects",
+          "To enable the reuse of code with different data types",
+          "To restrict access to class members",
+          "To hide the implementation details of a class"
+        ],
+        "Answer": "To enable the reuse of code with different data types"
+    },
+    {
+        "QuestionID": "Question 55",
+        "Question": "What is a generic type parameter?",
+        "Options": [
+          "A parameter that accepts any type",
+          "A parameter that is specific to a certain type",
+          "A parameter that must be a primitive type",
+          "A parameter that is always an integer"
+        ],
+        "Answer": "A parameter that accepts any type"
+    },
+    {
+        "QuestionID": "Question 56",
+        "Question": "How does using generics contribute to type safety in programming?",
+        "Options": [
+          "By allowing any data type to be used",
+          "By requiring the use of dynamic typing",
+          "By enabling the compiler to catch type-related errors at compile time",
+          "By removing the need for data types"
+        ],
+        "Answer": "By enabling the compiler to catch type-related errors at compile time"
+    },
+    {
+        "QuestionID": "Question 57",
+        "Question": "In C#, what is the syntax for defining a generic class?",
+        "Options": [
+          "class MyGenericClass<T> { }",
+          "class MyGenericClass { }",
+          "generic class MyGenericClass { }",
+          "class MyGenericClass<T> = new MyGenericClass<T>()"
+        ],
+        "Answer": "class MyGenericClass<T> { }"
+    },
+    {
+        "QuestionID": "Question 58",
+        "Question": "What is the purpose of exception handling in programming?",
+        "Options": [
+          "To create intentional errors",
+          "To manage and respond to runtime errors",
+          "To hide errors during compilation",
+          "To simplify code execution"
+        ],
+        "Answer": "To manage and respond to runtime errors"
+    },
+    {
+        "QuestionID": "Question 59",
+        "Question": "How can developers define their own custom exceptions in C#?",
+        "Options": [
+          "By using generic catch blocks",
+          "By using the throw keyword",
+          "By creating a class that inherits from the Exception class",
+          "By using the finally keyword"
+        ],
+        "Answer": "By creating a class that inherits from the Exception class"
+    },
+    {
+        "QuestionID": "Question 60",
+        "Question": "What is the primary purpose of the 'try' block in a try-catch structure?",
+        "Options": [
+          "To catch and handle exceptions",
+          "To specify code that might throw an exception",
+          "To define custom exceptions",
+          "To execute code regardless of exceptions"
+        ],
+        "Answer": "To specify code that might throw an exception"
+    },
+    {
+        "QuestionID": "Question 61",
+        "Question": "What is the primary purpose of the 'catch' block in a try-catch structure?",
+        "Options": [
+          "To specify code that might throw an exception",
+          "To execute code regardless of exceptions",
+          "To catch and handle exceptions",
+          "To define custom exceptions"
+        ],
+        "Answer": "To catch and handle exceptions"
+    }     
+]

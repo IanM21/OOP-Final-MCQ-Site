@@ -409,7 +409,7 @@
         "QuestionID": "Question 38",
         "Question": "Can an abstract class have a constructor?",
         "Options": [
-          "Yes, but only private constructors",
+          "Yes, but only protected or public constructors",
           "No, never",
           "Yes, but only public constructors",
           "Yes, always"
@@ -517,14 +517,14 @@
     },
     {
         "QuestionID": "Question 48",
-        "Question": "Can an interface have fields (member variables) in most object-oriented programming languages?",
+        "Question": "Can an interface have fields (member variables) in C#?",
         "Options": [
-          "Yes, always",
-          "No, never",
+          "Yes",
+          "No",
           "Yes, but only private fields",
           "Yes, but only public fields"
         ],
-        "Answer": "No, never"
+        "Answer": "Yes"
     },
     {
         "QuestionID": "Question 49",

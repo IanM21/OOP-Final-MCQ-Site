@@ -231,7 +231,7 @@
     },
     {
         "QuestionID": "Question 22",
-        "Question": "Which keyword in Java is used to achieve runtime polymorphism through method overriding?",
+        "Question": "Which keyword in C# is used to achieve method overriding?",
         "Options": [
           "override",
           "virtual",

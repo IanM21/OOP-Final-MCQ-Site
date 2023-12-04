@@ -528,7 +528,7 @@
     },
     {
         "QuestionID": "Question 49",
-        "Question": "In Java, can an interface contain default implementations for its methods?",
+        "Question": "In C#, can an interface contain default implementations for its methods?",
         "Options": [
           "Yes, always",
           "No, never",

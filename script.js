@@ -82,6 +82,7 @@ function createQuestionCards(questions) {
   });
 }
 
+var score = 0;
 document.addEventListener('DOMContentLoaded', function () {
   console.log("Script loaded");
 
@@ -109,12 +110,13 @@ document.addEventListener('DOMContentLoaded', function () {
       if (selectedOptionText === correctAnswerText) {
         answerText.classList.remove('visually-hidden');
         answerText.textContent = 'Correct Answer';
+        score++;
       } else {
         answerText.classList.remove('text-success');
         answerText.classList.add('text-danger');
         answerText.classList.remove('visually-hidden');
         answerText.textContent = "Incorrect Answer, Correct Answer is: " + correctAnswerText + "";
-
+        
         // clear the answer after 5 seconds
         setTimeout(() => {
           answerText.classList.add('visually-hidden');
@@ -124,7 +126,15 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 5000);
       }
     } else {
-        alert('Please select an option');
+      alert('Please select an option');
+    }
+    // update score 
+    document.getElementById("score").innerHTML = score + " / 61";
+
+    if (score > 31) {
+      document.getElementById("score").style.color = "green";
+    } else {
+      document.getElementById("score").style.color = "red";
     }
   }
 

@@ -77,14 +77,14 @@
     },
     {
         "QuestionID": "Question 8",
-        "Question": "In Java, which keyword is used to implement inheritance?",
+        "Question": "In C#, which symbol is used to implement inheritance?",
         "Options": [
-          "derive",
-          "extends",
-          "inherit",
-          "inherits"
+          ",",
+          ".",
+          "+",
+          ":"
         ],
-        "Answer": "extends"
+        "Answer": ":"
     },
       
     {

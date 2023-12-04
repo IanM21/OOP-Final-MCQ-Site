@@ -395,15 +395,15 @@
         "Answer": "Yes, always"
     },
     {
-        "QuestionID": "Question 37",
-        "Question": "In Java, how do you declare an abstract class?",
-        "Options": [
-          "class AbstractClass { }",
-          "abstract class { }",
-          "abstract class AbstractClass { }",
-          "class abstract AbstractClass { }"
-        ],
-        "Answer": "abstract class AbstractClass { }"
+      "QuestionID": "Question 37",
+      "Question": "In C#, how do you declare an abstract class?",
+      "Options": [
+        "class AbstractClass { }",
+        "abstract class { }",
+        "abstract class AbstractClass { }",
+        "class abstract AbstractClass { }"
+      ],
+      "Answer": "abstract class AbstractClass { }"
     },
     {
         "QuestionID": "Question 38",

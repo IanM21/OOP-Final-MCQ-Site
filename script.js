@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Please select an option');
     }
     // update score 
-    document.getElementById("score").innerHTML = score + " / 61" + "\t" + (score / 61 * 100).toFixed(2) + "%";
+    document.getElementById("score").innerHTML = score + " / 61" + "\n" + (score / 61 * 100).toFixed(2) + "%";
 
     if (score > 31) {
       document.getElementById("score").style.color = "green";

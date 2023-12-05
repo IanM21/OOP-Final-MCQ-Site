@@ -167,12 +167,12 @@
         "QuestionID": "Question 16",
         "Question": "Which of the following statements is true regarding the relationship in composition?",
         "Options": [
-          "It represents a 'has a' relationship",
+          "It represents a 'part of' relationship",
           "It represents a 'is a' relationship",
           "It represents a 'belongs to' relationship",
           "It represents a 'controls' relationship"
         ],
-        "Answer": "It represents a 'has a' relationship"
+        "Answer": "It represents a 'part of' relationship"
     },
     {
         "QuestionID": "Question 17",

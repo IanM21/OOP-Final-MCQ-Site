@@ -116,20 +116,12 @@ document.addEventListener('DOMContentLoaded', function () {
         answerText.classList.add('text-danger');
         answerText.classList.remove('visually-hidden');
         answerText.textContent = "Incorrect Answer, Correct Answer is: " + correctAnswerText + "";
-        
-        // clear the answer after 5 seconds
-        setTimeout(() => {
-          answerText.classList.add('visually-hidden');
-          answerText.classList.remove('text-danger');
-          answerText.classList.add('text-success');
-          answerText.textContent = correctAnswerText;
-        }, 5000);
       }
     } else {
       alert('Please select an option');
     }
     // update score 
-    document.getElementById("score").innerHTML = score + " / 61";
+    document.getElementById("score").innerHTML = score + " / 61" + "\t" + (score / 61 * 100).toFixed(2) + "%";
 
     if (score > 31) {
       document.getElementById("score").style.color = "green";

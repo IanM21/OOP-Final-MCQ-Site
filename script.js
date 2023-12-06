@@ -1,3 +1,11 @@
+// Function to shuffle the array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 const jsonFile = 'data.json';
 
 fetch(jsonFile)
@@ -8,6 +16,9 @@ fetch(jsonFile)
     return response.json();
   })
   .then(data => {
+    // Shuffle the array of questions
+    shuffleArray(data);
+
     // Process your JSON data here
     createQuestionCards(data);
   })
@@ -129,11 +140,5 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById("score").style.color = "red";
     }
   }
-
-  // Rest of your code
-  const submitButtons = document.querySelectorAll('.mcq-card-footer button');
-  submitButtons.forEach(button => {
-      // No need to add another click event here, as we've already delegated it to the document
-  });
 });
 

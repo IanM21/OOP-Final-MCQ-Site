@@ -94,6 +94,15 @@ function createQuestionCards(questions) {
 }
 
 var score = 0;
+var scoreList = [];
+var time = 0;
+
+// Timer
+var timer = setInterval(function () {
+  time++;
+  document.getElementById("time").innerHTML = time + " seconds";
+}, 1000);
+
 document.addEventListener('DOMContentLoaded', function () {
   console.log("Script loaded");
 
@@ -139,6 +148,14 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
       document.getElementById("score").style.color = "red";
     }
+
+    // Save the score to local storage
+    scoreList.push(score);
+    localStorage.setItem("score", JSON.stringify(scoreList));
+
+    // only display the users top score
+    var topScore = Math.max(...scoreList);
+    document.getElementById("topScore").innerHTML = "Top Score: " + topScore + " / 61" + "  " + (topScore / 61 * 100).toFixed(2) + "%";
   }
 });
 

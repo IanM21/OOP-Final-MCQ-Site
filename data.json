@@ -615,69 +615,179 @@
       "Answer": "4"
   },
   {
-      "QuestionID": "Question 56",
-      "Question": "How does using generics contribute to type safety in programming?",
-      "Options": [
-        "By allowing any data type to be used",
-        "By requiring the use of dynamic typing",
-        "By enabling the compiler to catch type-related errors at compile time",
-        "By removing the need for data types"
-      ],
-      "Answer": "By enabling the compiler to catch type-related errors at compile time"
-  },
-  {
-      "QuestionID": "Question 57",
-      "Question": "In C#, what is the syntax for defining a generic class?",
-      "Options": [
-        "class MyGenericClass<T> { }",
-        "class MyGenericClass { }",
-        "generic class MyGenericClass { }",
-        "class MyGenericClass<T> = new MyGenericClass<T>()"
-      ],
-      "Answer": "class MyGenericClass<T> { }"
-  },
-  {
-      "QuestionID": "Question 58",
-      "Question": "What is the purpose of exception handling in programming?",
-      "Options": [
-        "To create intentional errors",
-        "To manage and respond to runtime errors",
-        "To hide errors during compilation",
-        "To simplify code execution"
-      ],
-      "Answer": "To manage and respond to runtime errors"
-  },
-  {
-      "QuestionID": "Question 59",
-      "Question": "How can developers define their own custom exceptions in C#?",
-      "Options": [
-        "By using generic catch blocks",
-        "By using the throw keyword",
-        "By creating a class that inherits from the Exception class",
-        "By using the finally keyword"
-      ],
-      "Answer": "By creating a class that inherits from the Exception class"
-  },
-  {
-      "QuestionID": "Question 60",
-      "Question": "What is the primary purpose of the 'try' block in a try-catch structure?",
-      "Options": [
-        "To catch and handle exceptions",
-        "To specify code that might throw an exception",
-        "To define custom exceptions",
-        "To execute code regardless of exceptions"
-      ],
-      "Answer": "To specify code that might throw an exception"
-  },
-  {
-      "QuestionID": "Question 61",
-      "Question": "What is the primary purpose of the 'catch' block in a try-catch structure?",
-      "Options": [
-        "To specify code that might throw an exception",
-        "To execute code regardless of exceptions",
-        "To catch and handle exceptions",
-        "To define custom exceptions"
-      ],
-      "Answer": "To catch and handle exceptions"
-  }     
+    "QuestionID": "Question 56",
+    "Question": "In Java, what is the primary difference between an ArrayList and a LinkedList when it comes to adding an element to the end of the list?",
+    "Options": [
+        "LinkedList is faster because it uses a dynamic array.",
+        "ArrayList is faster because it uses a dynamic array.",
+        "LinkedList is faster because it doesn't require an array resize.",
+        "ArrayList and LinkedList have the same performance for this operation."
+    ],
+    "Answer": "LinkedList is faster because it doesn't require an array resize."
+    },
+    {
+        "QuestionID": "Question 57",
+        "Question": "What does the 'Node' class in a LinkedList typically contain?",
+        "Options": [
+            "Only the data for each element in the list.",
+            "Data for each element and a reference to the next and previous nodes.",
+            "A reference to the next node only.",
+            "A reference to the previous node only."
+        ],
+        "Answer": "Data for each element and a reference to the next and previous nodes."
+    },
+    {
+        "QuestionID": "Question 58",
+        "Question": "Which method is used to add an element at the beginning of a LinkedList in Java?",
+        "Options": [
+            "addFirst()",
+            "push()",
+            "insertFirst()",
+            "unshift()"
+        ],
+        "Answer": "addFirst()"
+    },
+    {
+        "QuestionID": "Question 59",
+        "Question": "What is the time complexity of removing an element from the middle of a LinkedList?",
+        "Options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "Answer": "O(n)"
+    },
+    {
+        "QuestionID": "Question 60",
+        "Question": "When iterating through a LinkedList, why is it generally more efficient to use a for-each loop rather than a traditional for loop with an index?",
+        "Options": [
+            "A for-each loop uses less memory.",
+            "LinkedList elements cannot be accessed using an index efficiently.",
+            "A for-each loop is always faster than a for loop.",
+            "LinkedList is not compatible with traditional for loops."
+        ],
+        "Answer": "LinkedList elements cannot be accessed using an index efficiently."
+    },
+    {
+        "QuestionID": "Question 61",
+        "Question": "In a singly linked list, how do you find the previous node of a given node?",
+        "Options": [
+            "By using the 'previous' reference in the given node.",
+            "By iterating from the head of the list until you reach the node just before the given node.",
+            "By accessing the previous element's index.",
+            "By using the 'getPreviousNode()' method."
+        ],
+        "Answer": "By iterating from the head of the list until you reach the node just before the given node."
+    },
+    {
+        "QuestionID": "Question 62",
+        "Question": "What must be updated when adding a new node to the end of a singly linked list?",
+        "Options": [
+            "The 'next' reference of the head node.",
+            "The 'next' reference of the last node.",
+            "The 'previous' reference of the last node.",
+            "The 'previous' reference of the head node."
+        ],
+        "Answer": "The 'next' reference of the last node."
+    },
+    {
+    "QuestionID": "Question 63",
+    "Question": "What will be the result of the following code snippet?\n`LinkedList<String> list = new LinkedList<>();\nlist.add(\"Apple\");\nlist.add(0, \"Orange\");\nSystem.out.println(list);`",
+    "Options": [
+        "[\"Apple\", \"Orange\"]",
+        "[\"Orange\", \"Apple\"]",
+        "[\"Apple\"]",
+        "An error occurs."
+    ],
+    "Answer": "[\"Orange\", \"Apple\"]"
+    },
+    {
+        "QuestionID": "Question 64",
+        "Question": "If you have a LinkedList with elements [\"Node1\", \"Node2\", \"Node3\"], what is the value of 'head.next.data'?",
+        "Options": [
+            "\"Node1\"",
+            "\"Node2\"",
+            "\"Node3\"",
+            "None of the above"
+        ],
+        "Answer": "\"Node2\""
+    },
+    {
+        "QuestionID": "Question 65",
+    "Question": "Considering a LinkedList with the initial elements [\"Node1\", \"Node2\"], what would be the result after executing the following Java code snippet?\n`list.addLast(\"Node3\"); list.removeFirst();`\n",
+        "Options": [
+            "[\"Node1\", \"Node2\"]",
+            "[\"Node2\", \"Node3\"]",
+            "[\"Node1\", \"Node3\"]",
+            "[\"Node3\", \"Node1\"]"
+        ],
+        "Answer": "[\"Node2\", \"Node3\"]"
+    },
+    {
+        "QuestionID": "Question 66",
+        "Question": "What will be the size of a LinkedList after the following Java statements?\n`LinkedList<Integer> numbers = new LinkedList<>();\nnumbers.add(1);\nnumbers.add(2);\nnumbers.remove(1);\n`",
+        "Options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "Answer": "1"
+    },
+    {
+        "QuestionID": "Question 67",
+        "Question": "In Java, which method is commonly used to reverse a LinkedList?",
+        "Options": [
+            "reverse()",
+            "invertList()",
+            "Collections.reverse()",
+            "LinkedList does not support reversing through a method."
+        ],
+        "Answer": "Collections.reverse()"
+    },
+    {
+        "QuestionID": "Question 68",
+        "Question": "What exception is thrown if you try to access an element in a LinkedList using 'get()' with an invalid index?",
+        "Options": [
+            "NullPointerException",
+            "IllegalArgumentException",
+            "IndexOutOfBoundsException",
+            "NoSuchElementException"
+        ],
+        "Answer": "IndexOutOfBoundsException"
+    },
+    {
+        "QuestionID": "Question 69",
+        "Question": "What will the 'next' reference of the last node in a singly linked list point to?",
+        "Options": [
+            "The first node, making it circular",
+            "null, indicating the end of the list",
+            "A random node in the list",
+            "It will not have a 'next' reference"
+        ],
+        "Answer": "null, indicating the end of the list"
+    },
+    {
+        "QuestionID": "Question 70",
+        "Question": "Given a 'Node' class with an 'int data' and 'Node next', which of the following Java code snippets correctly creates a two-node LinkedList with values 5 and 10?",
+        "Options": [
+            "`Node head = new Node(5); head.next = new Node(10);`",
+            "`Node head = new Node(5); new Node(10);`",
+            "`Node head = new Node(5); head.next = 10;`",
+            "`Node head = new Node(5); head.next.data = 10;`"
+        ],
+        "Answer": "`Node head = new Node(5); head.next = new Node(10);`"
+    },
+    {
+        "QuestionID": "Question 71",
+        "Question": "How do you delete the entire LinkedList in Java?",
+        "Options": [
+            "By setting the head to null",
+            "By using the clear() method",
+            "By manually setting each node's next to null",
+            "By iterating through the list and removing each element"
+        ],
+        "Answer": "By setting the head to null or by using the clear() method"
+    }
 ]

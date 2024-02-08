@@ -145,9 +145,9 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Please select an option');
     }
     // update score 
-    document.getElementById("score").innerHTML = score + "/61" + "<br>" + (score / 61 * 100).toFixed(2) + "%";
+    document.getElementById("score").innerHTML = score + "/71" + "<br>" + (score / 71 * 100).toFixed(2) + "%";
 
-    if (score > 31) {
+    if (score > 36) {
       document.getElementById("score").style.color = "green";
     } else {
       document.getElementById("score").style.color = "red";

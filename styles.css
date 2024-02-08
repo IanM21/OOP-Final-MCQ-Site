@@ -20,3 +20,15 @@ input[type="radio"] {
     flex-direction: column;
     align-items: center;
 }
+
+code {
+    font-family: 'Courier New', monospace;
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    /* to make it a block element */
+    margin-top: 10px;
+    /* to ensure it starts on a new line */
+   
+}

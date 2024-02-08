@@ -1,672 +1,683 @@
 [
-    {
-      "QuestionID": "Question 1",
-      "Question": "What is the full name of OOP?",
+  {
+    "QuestionID": "Question 1",
+    "Question": "Can You Perform Binary Search On Un-Ordered Arrays?",
+    "Options": [
+      "Yes",
+      "No"
+    ],
+      "Answer": "No"
+  },
+  {
+      "QuestionID": "Question 2",
+      "Question": "In Regards To Binary Search, Which Statement Is True?",
       "Options": [
-        "Object Oriented Programming",
-        "Object Oriented Program",
-        "Object Oriented Protocol",
-        "Object Oriented Procedure"
+        "Hi = End of Array, Lo = Start of Array, Mid = (Hi + Lo) / 2",
+        "Hi = Start of Array, Lo = End of Array, Mid = (Hi + Lo) / 2",
+        "Hi = End of Array, Lo = Start of Array, Mid = (Hi - Lo) / 2",
+        "None"
       ],
-        "Answer": "Object Oriented Programming"
-    },
-    {
-        "QuestionID": "Question 2",
-        "Question": "What is the relation of inheratince?",
-        "Options": [
-          "Has a",
-          "Does a",
-          "Is a",
-          "Make a"
-        ],
-        "Answer": "Is a"
-    },
-    {
-        "QuestionID": "Question 3",
-        "Question": "All state & behavior is inherited by the ____ class.",
-        "Options": [
-          "Parent",
-          "Super",
-          "Child"
-        ],
-        "Answer": "Child"
-    },
-    {
-        "QuestionID": "Question 4",
-        "Question": "What is the main advantage of using inheritance in object-oriented programming?",
-        "Options": [
-          "Code reusability",
-          "Code encapsulation",
-          "Code efficiency",
-          "Code modularity"
-        ],
-        "Answer": "Code reusability"
-    },
-    {
-        "QuestionID": "Question 5",
-        "Question": "Inheritance allows a class to inherit properties and behaviors from another class. What are these properties and behaviors collectively called?",
-        "Options": [
-          "Attributes",
-          "Members",
-          "Inherited elements",
-          "Traits"
-        ],
-        "Answer": "Members"
-    },
-    {
-        "QuestionID": "Question 6",
-        "Question": "Which type of inheritance allows a class to inherit from more than one class?",
-        "Options": [
-          "Single Inheritance",
-          "Multiple Inheritance",
-          "Multilevel Inheritance",
-          "Hierarchical Inheritance"
-        ],
-        "Answer": "Multiple Inheritance"
-    },
-    {
-        "QuestionID": "Question 7",
-        "Question": "What is the term for the process of creating a new class by using existing class members?",
-        "Options": [
-          "Class expansion",
-          "Class duplication",
-          "Class derivation",
-          "Class instantiation"
-        ],
-        "Answer": "Class derivation"
-    },
-    {
-        "QuestionID": "Question 8",
-        "Question": "In C#, which symbol is used to implement inheritance?",
-        "Options": [
-          ",",
-          ".",
-          "+",
-          ":"
-        ],
-        "Answer": ":"
-    },
-      
-    {
-        "QuestionID": "Question 9",
-        "Question": "What is the relation of aggregation?",
-        "Options": [
-          "Has a",
-          "Does a",
-          "Is a",
-          "Make a"
-        ],
-        "Answer": "Has a"
-    },
-    {
-        "QuestionID": "Question 10",
-        "Question": "What is the existance of aggregation?",
-        "Options": [
-          "Independent",
-          "Dependent",
-          "Both"
-        ],
-        "Answer": "Independent"
-    },
-    {
-        "QuestionID": "Question 11",
-        "Question": "What is aggregation in object-oriented programming?",
-        "Options": [
-          "A process of combining multiple classes",
-          "A process of creating new objects",
-          "A process of inheriting properties",
-          "A process of data encapsulation"
-        ],
-        "Answer": "A process of combining multiple classes"
-    },
-    {
-        "QuestionID": "Question 12",
-        "Question": "In aggregation, what term is used to describe the whole object composed of several parts?",
-        "Options": [
-          "Parent object",
-          "Composite object",
-          "Aggregate object",
-          "Container object"
-        ],
-        "Answer": "Composite object"
-    },
-    {
-        "QuestionID": "Question 13",
-        "Question": "Which of the following statements is true regarding the relationship in aggregation?",
-        "Options": [
-          "It represents a 'has a' relationship",
-          "It represents a 'is a' relationship",
-          "It represents a 'belongs to' relationship",
-          "It represents a 'controls' relationship"
-        ],
-        "Answer": "It represents a 'has a' relationship"
-    },
-    {
-        "QuestionID": "Question 14",
-        "Question": "What is composition in object-oriented programming?",
-        "Options": [
-          "A process of combining multiple classes",
-          "A process of creating new objects",
-          "A process of inheriting properties",
-          "A process of creating relationships"
-        ],
-        "Answer": "A process of combining multiple classes"
-    },
-    {
-        "QuestionID": "Question 15",
-        "Question": "In composition, what term is used to describe the whole object composed of several parts?",
-        "Options": [
-          "Parent object",
-          "Composite object",
-          "Aggregate object",
-          "Container object"
-        ],
-        "Answer": "Composite object"
-    },
-    {
-        "QuestionID": "Question 16",
-        "Question": "Which of the following statements is true regarding the relationship in composition?",
-        "Options": [
-          "It represents a 'part of' relationship",
-          "It represents a 'is a' relationship",
-          "It represents a 'belongs to' relationship",
-          "It represents a 'controls' relationship"
-        ],
-        "Answer": "It represents a 'part of' relationship"
-    },
-    {
-        "QuestionID": "Question 17",
-        "Question": "What happens to the component objects in composition when the composite object is destroyed?",
-        "Options": [
-          "Component objects are also destroyed",
-          "Component objects become independent",
-          "Component objects are preserved",
-          "Component objects are duplicated"
-        ],
-        "Answer": "Component objects are also destroyed"
-    },
-    {
-        "QuestionID": "Question 18",
-        "Question": "In composition, which term describes the strong ownership relationship between the composite and its components?",
-        "Options": [
-          "Association",
-          "Aggregation",
-          "Encapsulation",
-          "Containment"
-        ],
-        "Answer": "Containment"
-    },
-    {
-        "QuestionID": "Question 19",
-        "Question": "What is polymorphism in object-oriented programming?",
-        "Options": [
-          "A process of combining multiple classes",
-          "A process of creating new objects",
-          "A process of inheriting properties",
-          "A process of allowing objects to be treated as instances of their parent class"
-        ],
-        "Answer": "A process of allowing objects to be treated as instances of their parent class"
-    },
-    {
-        "QuestionID": "Question 20",
-        "Question": "Which type of polymorphism allows a single function name to represent multiple functions based on the number and types of its parameters?",
-        "Options": [
-          "Compile-time polymorphism",
-          "Runtime polymorphism",
-          "Method polymorphism",
-          "Parameter polymorphism"
-        ],
-        "Answer": "Compile-time polymorphism"
-    },
-    {
-        "QuestionID": "Question 21",
-        "Question": "In object-oriented programming, what is achieved when a subclass provides a specific implementation for a method that is already defined in its parent class?",
-        "Options": [
-          "Encapsulation",
-          "Abstraction",
-          "Inheritance",
-          "Method overriding"
-        ],
-        "Answer": "Method overriding"
-    },
-    {
-        "QuestionID": "Question 22",
-        "Question": "Which keyword in C# is used to achieve method overriding?",
-        "Options": [
-          "override",
-          "virtual",
-          "final",
-          "super"
-        ],
-        "Answer": "override"
-    },
-    {
-        "QuestionID": "Question 23",
-        "Question": "Polymorphism allows objects of different classes to be treated as objects of a common base class. What is this principle called?",
-        "Options": [
-          "Inheritance",
-          "Abstraction",
-          "Encapsulation",
-          "Interface"
-        ],
-        "Answer": "Abstraction"
-    },
-    {
-        "QuestionID": "Question 24",
-        "Question": "What is the primary goal of designing OOP solutions?",
-        "Options": [
-          "Code efficiency",
-          "Code reusability",
-          "Code simplicity",
-          "Code optimization"
-        ],
-        "Answer": "Code reusability"
-    },
-    {
-        "QuestionID": "Question 25",
-        "Question": "What is the purpose of encapsulation in OOP design?",
-        "Options": [
-          "To hide the implementation details of a class",
-          "To make the class public",
-          "To expose all class members",
-          "To create multiple instances of a class"
-        ],
-        "Answer": "To hide the implementation details of a class"
-    },
-    {
-        "QuestionID": "Question 26",
-        "Question": "When designing OOP solutions, what is the significance of the 'Single Responsibility Principle'?",
-        "Options": [
-          "A class should have only one method",
-          "A class should have only one attribute",
-          "A class should have only one responsibility",
-          "A class should have only one constructor"
-        ],
-        "Answer": "A class should have only one responsibility"
-    },
-    {
-        "QuestionID": "Question 27",
-        "Question": "What role does inheritance play in the design of OOP solutions?",
-        "Options": [
-          "Promotes code encapsulation",
-          "Facilitates code reuse and extension",
-          "Minimizes the need for classes",
-          "Eliminates the need for interfaces"
-        ],
-        "Answer": "Facilitates code reuse and extension"
-    },
-    {
-        "QuestionID": "Question 28",
-        "Question": "In OOP design, what is the purpose of interfaces?",
-        "Options": [
-          "To define the implementation details of a class",
-          "To define a contract for classes that implement them",
-          "To restrict access to class members",
-          "To create multiple instances of a class"
-        ],
-        "Answer": "To define a contract for classes that implement them"
-    },
-    {
-        "QuestionID": "Question 29",
-        "Question": "When designing OOP solutions, what does the term 'polymorphism' refer to?",
-        "Options": [
-          "The ability to create multiple instances of a class",
-          "The ability to hide the implementation details of a class",
-          "The ability to represent objects as instances of their parent class",
-          "The ability of a function to operate on different types of parameters"
-        ],
-        "Answer": "The ability of a function to operate on different types of parameters"
-    },
-    {
-        "QuestionID": "Question 30",
-        "Question": "What is the significance of the 'Composition over Inheritance' principle in OOP design?",
-        "Options": [
-          "Favoring composition helps create more flexible and maintainable designs",
-          "Favoring inheritance helps create more flexible and maintainable designs",
-          "Composition and inheritance are equally important in OOP design",
-          "Composition is not relevant in OOP design"
-        ],
-        "Answer": "Favoring composition helps create more flexible and maintainable designs"
-    },
-    {
-        "QuestionID": "Question 31",
-        "Question": "Why is it important to consider the 'Open/Closed Principle' in OOP design?",
-        "Options": [
-          "To ensure that a class has only one responsibility",
-          "To allow modification of existing code without changing its source code",
-          "To restrict access to class members",
-          "To create multiple instances of a class"
-        ],
-        "Answer": "To allow modification of existing code without changing its source code"
-    },
-    {
-        "QuestionID": "Question 32",
-        "Question": "What role does abstraction play in the design of OOP solutions?",
-        "Options": [
-          "To hide the implementation details of a class",
-          "To expose all class members",
-          "To create multiple instances of a class",
-          "To define a high-level interface for a set of classes"
-        ],
-        "Answer": "To define a high-level interface for a set of classes"
-    },
-    {
-        "QuestionID": "Question 33",
-        "Question": "When designing OOP solutions, why is it important to consider the 'Dependency Inversion Principle'?",
-        "Options": [
-          "To promote tight coupling between classes",
-          "To minimize the use of interfaces",
-          "To promote high cohesion within a class",
-          "To reduce coupling between high-level and low-level modules"
-        ],
-        "Answer": "To reduce coupling between high-level and low-level modules"
-    },
-    {
-        "QuestionID": "Question 34",
-        "Question": "What is an abstract class in object-oriented programming?",
-        "Options": [
-          "A class that cannot be instantiated",
-          "A class with only private members",
-          "A class with no methods",
-          "A class that is sealed"
-        ],
-        "Answer": "A class that cannot be instantiated"
-    },
-    {
-        "QuestionID": "Question 35",
-        "Question": "What is the primary purpose of an abstract class?",
-        "Options": [
-          "To provide a blueprint for other classes",
-          "To restrict access to class members",
-          "To create multiple instances of a class",
-          "To hide the implementation details of a class"
-        ],
-        "Answer": "To provide a blueprint for other classes"
-    },
-    {
-        "QuestionID": "Question 36",
-        "Question": "Can an abstract class have concrete (non-abstract) methods?",
-        "Options": [
-          "Yes, always",
-          "No, never",
-          "Yes, but only private methods",
-          "Yes, but only public methods"
-        ],
-        "Answer": "Yes, always"
-    },
-    {
+      "Answer": "Hi = End of Array, Lo = Start of Array, Mid = (Hi + Lo) / 2"
+  },
+  {
+      "QuestionID": "Question 3",
+      "Question": "In This Array, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], What Is Hi, Lo, Mid (Index)?",
+      "Options": [
+        "0, 9, 5",
+        "9, 0, 4",
+        "0, 9, 4",
+        "9, 0, 5"
+      ],
+      "Answer": "9, 0, 4"
+  },
+  {
+      "QuestionID": "Question 4",
+      "Question": "What is the time complexity of a binary search algorithm in the worst case?",
+      "Options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "Answer": "O(log n)"
+  },
+  {
+      "QuestionID": "Question 5",
+      "Question": "In a binary search algorithm, what condition is used to terminate the search?",
+      "Options": [
+        "The target value is less than the smallest value in the array.",
+        "The low pointer crosses the high pointer.",
+        "The target value is greater than the largest value in the array.",
+        "The array is completely sorted."
+      ],
+      "Answer": "The low pointer crosses the high pointer."
+  },
+  {
+      "QuestionID": "Question 6",
+      "Question": "What will be the middle index when performing a binary search on this array [10, 20, 30, 40, 50, 60, 70, 80, 90] in the first iteration?",
+      "Options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "Answer": "4"
+  },
+  {
+  "QuestionID": "Question 5",
+  "Question": "If the target value is greater than the value at the middle index during a binary search, what should be the next step?",
+  "Options": [
+      "Search in the left half of the array.",
+      "Search in the right half of the array.",
+      "Repeat the search on the entire array.",
+      "Stop the search."
+    ],
+    "Answer": "Search in the right half of the array."
+  },
+  {
+      "QuestionID": "Question 7",
+      "Question": "Consider the array [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. If you are searching for the number 23 using binary search, how many iterations will it take to find it?",
+      "Options": [
+          "1",
+          "2",
+          "3",
+          "4"
+      ],
+      "Answer": "3"
+  },
+  {
+      "QuestionID": "Question 8",
+      "Question": "In Java, which of the following is a correct way to calculate the middle index in a binary search?",
+      "Options": [
+          "mid = (low + high) / 2;",
+          "mid = low + (high - low) / 2;",
+          "mid = (low * high) / 2;",
+          "mid = (high - low) / 2 + low;"
+      ],
+      "Answer": "mid = (low + high) / 2;"
+  },
+  {
+      "QuestionID": "Question 9",
+      "Question": "When implementing a binary search in Java, what type of loop is commonly used?",
+      "Options": [
+          "A for-loop",
+          "A while-loop",
+          "A do-while loop",
+          "A foreach loop"
+      ],
+      "Answer": "A while-loop"
+  },
+  {
+      "QuestionID": "Question 10",
+      "Question": "What is the space complexity of the iterative version of binary search?",
+      "Options": [
+          "O(1)",
+          "O(log n)",
+          "O(n)",
+          "O(n log n)"
+      ],
+      "Answer": "O(1)"
+  },
+  {
+      "QuestionID": "Question 11",
+      "Question": "If a binary search is performed on an array with the elements [3, 7, 10, 15, 18, 22, 27], what will be the middle element in the second iteration when searching for the number 10?",
+      "Options": [
+          "3",
+          "7",
+          "15",
+          "18"
+      ],
+      "Answer": "7"
+  },
+  {
+  "QuestionID": "Question 12",
+  "Question": "What is the time complexity of the Insertion Sort algorithm in the best case scenario?",
+  "Options": [
+      "O(1)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "Answer": "O(n)"
+  },
+  {
+      "QuestionID": "Question 13",
+      "Question": "Which of the following scenarios best suits the use of Insertion Sort?",
+      "Options": [
+          "Large datasets",
+          "Data sets that are almost sorted",
+          "Data sets with complex data structures",
+          "When memory space is extremely limited"
+      ],
+      "Answer": "Data sets that are almost sorted"
+  },
+  {
+      "QuestionID": "Question 14",
+      "Question": "In Insertion Sort, each iteration sorts a list of how many elements?",
+      "Options": [
+          "One element",
+          "Two elements",
+          "The entire list",
+          "Half of the list"
+      ],
+      "Answer": "One element"
+  },
+  {
+      "QuestionID": "Question 15",
+      "Question": "What is the space complexity of Insertion Sort?",
+      "Options": [
+          "O(1)",
+          "O(n)",
+          "O(n^2)",
+          "O(log n)"
+      ],
+      "Answer": "O(1)"
+  },
+  {
+      "QuestionID": "Question 16",
+      "Question": "Which of the following statements is true about Insertion Sort?",
+      "Options": [
+          "It is not a stable sort.",
+          "It uses divide and conquer.",
+          "It is more efficient than Quick Sort for small data sets.",
+          "It cannot be used on partially sorted arrays."
+      ],
+      "Answer": "It is more efficient than Quick Sort for small data sets."
+  },
+  {
+  "QuestionID": "Question 17",
+  "Question": "Consider the array [5, 3, 8, 4, 2]. After the first pass of Insertion Sort, what will the array look like?",
+  "Options": [
+      "[5, 3, 8, 4, 2]",
+      "[3, 5, 8, 4, 2]",
+      "[5, 8, 3, 4, 2]",
+      "[2, 3, 4, 5, 8]"
+      ],
+      "Answer": "[3, 5, 8, 4, 2]"
+  },
+  {
+      "QuestionID": "Question 18",
+      "Question": "In which pass of Insertion Sort would the number '1' be correctly positioned in the array [4, 3, 1, 5, 2]?",
+      "Options": [
+          "First pass",
+          "Second pass",
+          "Third pass",
+          "Fourth pass"
+      ],
+      "Answer": "Third pass"
+  },
+  {
+      "QuestionID": "Question 19",
+      "Question": "For the array [6, 1, 5, 2, 4], how many swaps are required in the second pass of Insertion Sort?",
+      "Options": [
+          "0",
+          "1",
+          "2",
+          "More than 2"
+      ],
+      "Answer": "1"
+  },
+  {
+      "QuestionID": "Question 20",
+      "Question": "What is the position of '7' after the first pass of Insertion Sort on the array [7, 5, 3, 9, 8]?",
+      "Options": [
+          "Position 1",
+          "Position 2",
+          "Position 3",
+          "Position 4"
+      ],
+      "Answer": "Position 1"
+  },
+  {
+      "QuestionID": "Question 21",
+      "Question": "How many comparisons are made in the third pass of Insertion Sort when sorting the array [8, 4, 5, 3, 1]?",
+      "Options": [
+          "1",
+          "2",
+          "3",
+          "4"
+      ],
+      "Answer": "2"
+  },
+  {
+  "QuestionID": "Question 22",
+  "Question": "How does Insertion Sort behave with duplicate elements in the array?",
+  "Options": [
+      "It cannot handle duplicate elements.",
+      "It places all duplicates at the end.",
+      "It maintains the relative order of duplicate elements.",
+      "It places all duplicates at the beginning."
+      ],
+      "Answer": "It maintains the relative order of duplicate elements."
+  },
+  {
+      "QuestionID": "Question 23",
+      "Question": "Which of the following best describes the adaptive nature of Insertion Sort?",
+      "Options": [
+          "Its performance adapts based on the initial order of elements.",
+          "It changes its algorithm based on the data type.",
+          "It adapts the memory usage based on the size of the data.",
+          "It can sort both numeric and alphabetical data."
+      ],
+      "Answer": "Its performance adapts based on the initial order of elements."
+  },
+  {
+      "QuestionID": "Question 24",
+      "Question": "What is a disadvantage of Insertion Sort?",
+      "Options": [
+          "It is too complex to understand.",
+          "It is not stable.",
+          "It is inefficient for large lists.",
+          "It cannot sort partially sorted arrays efficiently."
+      ],
+      "Answer": "It is inefficient for large lists."
+  },
+  {
+      "QuestionID": "Question 25",
+      "Question": "In Insertion Sort, which element starts as the sorted portion of the array?",
+      "Options": [
+          "The first element",
+          "The last element",
+          "The middle element",
+          "None, the array starts unsorted"
+      ],
+      "Answer": "The first element"
+  },
+  {
+      "QuestionID": "Question 26",
+      "Question": "What characteristic of data makes Insertion Sort particularly efficient?",
+      "Options": [
+          "Data with many duplicates",
+          "Data in completely random order",
+          "Almost sorted data",
+          "Data with large values"
+      ],
+      "Answer": "Almost sorted data"
+  },
+  {
+      "QuestionID": "Question 27",
+      "Question": "After the second pass of Insertion Sort on the array [9, 7, 5, 3, 1], what will the array look like?",
+      "Options": [
+          "[9, 7, 5, 3, 1]",
+          "[7, 9, 5, 3, 1]",
+          "[5, 7, 9, 3, 1]",
+          "[7, 5, 9, 3, 1]"
+      ],
+      "Answer": "[7, 9, 5, 3, 1]"
+  },
+  {
+      "QuestionID": "Question 28",
+      "Question": "What is the final position of the number '6' in the sorted array using Insertion Sort for the array [4, 6, 2, 7, 3]?",
+      "Options": [
+          "Position 1",
+          "Position 2",
+          "Position 3",
+          "Position 4"
+      ],
+      "Answer": "Position 3"
+  },
+  {
+      "QuestionID": "Question 29",
+      "Question": "How many total movements (swaps) are required to sort the array [3, 1, 2, 5, 4] using Insertion Sort?",
+      "Options": [
+          "3",
+          "4",
+          "5",
+          "6"
+      ],
+      "Answer": "4"
+  },
+  {
+      "QuestionID": "Question 30",
+      "Question": "In which pass of Insertion Sort will the smallest element of the array reach its correct position in the array [8, 5, 1, 4, 6]?",
+      "Options": [
+          "First pass",
+          "Second pass",
+          "Third pass",
+          "Fourth pass"
+      ],
+      "Answer": "Third pass"
+  },
+  {
+      "QuestionID": "Question 31",
+      "Question": "What is the number of comparisons needed in the fourth pass of Insertion Sort for the array [7, 4, 5, 2, 3]?",
+      "Options": [
+          "1",
+          "2",
+          "3",
+          "4"
+      ],
+      "Answer": "4"
+  },
+  {
+  "QuestionID": "Question 32",
+  "Question": "What is the time complexity of Linear Search in the worst case scenario?",
+  "Options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+      ],
+      "Answer": "O(n)"
+  },
+  {
+      "QuestionID": "Question 33",
+      "Question": "What is the primary advantage of Linear Search over other search algorithms?",
+      "Options": [
+          "It is faster than binary search.",
+          "It does not require the data to be sorted.",
+          "It uses less memory.",
+          "It can find the smallest element."
+      ],
+      "Answer": "It does not require the data to be sorted."
+  },
+  {
+      "QuestionID": "Question 34",
+      "Question": "Which of the following is true about Linear Search?",
+      "Options": [
+          "It is more efficient on large datasets than on small datasets.",
+          "It requires additional space for its operation.",
+          "It is considered a divide-and-conquer algorithm.",
+          "It examines every element in the list until it finds the target."
+      ],
+      "Answer": "It examines every element in the list until it finds the target."
+  },
+
+  {
+  "QuestionID": "Question 35",
+  "Question": "For the array [5, 3, 8, 4, 2], what is the number of comparisons needed to find the value 4 using Linear Search?",
+  "Options": [
+      "2",
+      "3",
+      "4",
+      "5"
+      ],
+      "Answer": "4"
+  },
+  {
+      "QuestionID": "Question 36",
+      "Question": "In which position will the number 7 be found during Linear Search in the array [9, 5, 7, 3, 1]?",
+      "Options": [
+          "Position 1",
+          "Position 2",
+          "Position 3",
+          "Not found"
+      ],
+      "Answer": "Position 3"
+  },
+  {
       "QuestionID": "Question 37",
-      "Question": "In C#, how do you declare an abstract class?",
+      "Question": "What will be the result of a Linear Search for the number 6 in the array [4, 2, 5, 1, 3]?",
       "Options": [
-        "class AbstractClass { }",
-        "abstract class { }",
-        "abstract class AbstractClass { }",
-        "class abstract AbstractClass { }"
+          "Found at Position 1",
+          "Found at Position 4",
+          "Not found",
+          "Requires sorting first"
       ],
-      "Answer": "abstract class AbstractClass { }"
-    },
-    {
-        "QuestionID": "Question 38",
-        "Question": "Can an abstract class have a constructor?",
-        "Options": [
-          "Yes, but only protected or public constructors",
-          "No, never",
-          "Yes, but only public constructors",
-          "Yes, always"
-        ],
-        "Answer": "Yes, but only protected or public constructors"
-    },
-    {
-        "QuestionID": "Question 39",
-        "Question": "What is the keyword used to declare an abstract method in an abstract class?",
-        "Options": [
-          "method",
-          "abstract",
-          "virtual",
-          "function"
-        ],
-        "Answer": "abstract"
-    },
-    {
-        "QuestionID": "Question 40",
-        "Question": "Can an abstract class have both abstract and non-abstract (concrete) methods?",
-        "Options": [
-          "Yes, always",
-          "No, never",
-          "Yes, but only private methods",
-          "Yes, but only public methods"
-        ],
-        "Answer": "Yes, always"
-    },
-    {
-        "QuestionID": "Question 41",
-        "Question": "In C#, can a class inherit from multiple abstract classes?",
-        "Options": [
-          "Yes, always",
-          "No, never",
-          "Yes, but only if the abstract classes have the same methods",
-          "Yes, but only if the abstract classes are sealed"
-        ],
-        "Answer": "No, never"
-    },
-    {
-        "QuestionID": "Question 42",
-        "Question": "What is the purpose of providing a default implementation for an abstract method in an abstract class?",
-        "Options": [
-          "To force derived classes to override the method",
-          "To make the method optional for derived classes",
-          "To make the method private",
-          "To make the method static"
-        ],
-        "Answer": "To make the method optional for derived classes"
-    },
-    {
-        "QuestionID": "Question 43",
-        "Question": "What is the relationship between an abstract class and an interface in OOP?",
-        "Options": [
-          "An abstract class can implement an interface",
-          "An interface can inherit from an abstract class",
-          "There is no relationship between them",
-          "An abstract class and an interface are the same"
-        ],
-        "Answer": "An abstract class can implement an interface"
-    },
-    {
-        "QuestionID": "Question 44",
-        "Question": "What is an interface in object-oriented programming?",
-        "Options": [
-          "A class that cannot be instantiated",
-          "A class with only private members",
-          "A collection of methods with no implementation",
-          "A sealed class"
-        ],
-        "Answer": "A collection of methods with no implementation"
-    },
-    {
-        "QuestionID": "Question 45",
-        "Question": "Can a class implement multiple interfaces in most object-oriented programming languages?",
-        "Options": [
-          "Yes, always",
-          "No, never",
-          "Yes, but only if the interfaces have the same methods",
-          "Yes, but only if the interfaces are sealed"
-        ],
-        "Answer": "Yes, always"
-    },
-    {
-        "QuestionID": "Question 46",
-        "Question": "In C#, how do you declare an interface?",
-        "Options": [
-          "interface MyInterface { }",
-          "class MyInterface { }",
-          "abstract class MyInterface { }",
-          "interface class MyInterface { }"
-        ],
-        "Answer": "interface MyInterface { }"
-    },
-    {
-        "QuestionID": "Question 47",
-        "Question": "What keyword is used to declare a method within an interface?",
-        "Options": [
-          "method",
-          "abstract",
-          "virtual",
-          "function"
-        ],
-        "Answer": "abstract"
-    },
-    {
-        "QuestionID": "Question 48",
-        "Question": "Can an interface have fields (member variables) in C#?",
-        "Options": [
-          "Yes",
-          "No",
-          "Yes, but only private fields",
-          "Yes, but only public fields"
-        ],
-        "Answer": "Yes"
-    },
-    {
-        "QuestionID": "Question 49",
-        "Question": "In C#, can an interface contain default implementations for its methods?",
-        "Options": [
-          "Yes, always",
-          "No, never",
-          "Yes, but only for private methods",
-          "Yes, but only for public methods"
-        ],
-        "Answer": "Yes, always"
-    },
-    {
-        "QuestionID": "Question 50",
-        "Question": "Can an interface be instantiated?",
-        "Options": [
-          "Yes, always",
-          "No, never",
-          "Yes, but only if it has a constructor",
-          "Yes, but only if it has concrete methods"
-        ],
-        "Answer": "No, never"
-    },
-    {
-        "QuestionID": "Question 51",
-        "Question": "What is the primary purpose of using interfaces in object-oriented programming?",
-        "Options": [
-          "To provide a blueprint for other classes",
-          "To hide the implementation details of a class",
-          "To define a contract for classes that implement them",
-          "To restrict access to class members"
-        ],
-        "Answer": "To define a contract for classes that implement them"
-    },
-    {
-        "QuestionID": "Question 52",
-        "Question": "What is the relationship between an interface and a class in OOP?",
-        "Options": [
-          "A class can implement multiple interfaces",
-          "An interface can inherit from a class",
-          "There is no relationship between them",
-          "A class and an interface are the same"
-        ],
-        "Answer": "A class can implement multiple interfaces"
-    },
-    {
-        "QuestionID": "Question 53",
-        "Question": "How does using interfaces promote code flexibility in OOP?",
-        "Options": [
-          "By allowing a class to have only one method",
-          "By allowing a class to have only private members",
-          "By enabling a class to implement multiple contracts",
-          "By preventing a class from having constructors"
-        ],
-        "Answer": "By enabling a class to implement multiple contracts"
-    },
-    {
-        "QuestionID": "Question 54",
-        "Question": "What is the purpose of generics in programming?",
-        "Options": [
-          "To create objects",
-          "To enable the reuse of code with different data types",
-          "To restrict access to class members",
-          "To hide the implementation details of a class"
-        ],
-        "Answer": "To enable the reuse of code with different data types"
-    },
-    {
-        "QuestionID": "Question 55",
-        "Question": "What is a generic type parameter?",
-        "Options": [
-          "A parameter that accepts any type",
-          "A parameter that is specific to a certain type",
-          "A parameter that must be a primitive type",
-          "A parameter that is always an integer"
-        ],
-        "Answer": "A parameter that accepts any type"
-    },
-    {
-        "QuestionID": "Question 56",
-        "Question": "How does using generics contribute to type safety in programming?",
-        "Options": [
-          "By allowing any data type to be used",
-          "By requiring the use of dynamic typing",
-          "By enabling the compiler to catch type-related errors at compile time",
-          "By removing the need for data types"
-        ],
-        "Answer": "By enabling the compiler to catch type-related errors at compile time"
-    },
-    {
-        "QuestionID": "Question 57",
-        "Question": "In C#, what is the syntax for defining a generic class?",
-        "Options": [
-          "class MyGenericClass<T> { }",
-          "class MyGenericClass { }",
-          "generic class MyGenericClass { }",
-          "class MyGenericClass<T> = new MyGenericClass<T>()"
-        ],
-        "Answer": "class MyGenericClass<T> { }"
-    },
-    {
-        "QuestionID": "Question 58",
-        "Question": "What is the purpose of exception handling in programming?",
-        "Options": [
-          "To create intentional errors",
-          "To manage and respond to runtime errors",
-          "To hide errors during compilation",
-          "To simplify code execution"
-        ],
-        "Answer": "To manage and respond to runtime errors"
-    },
-    {
-        "QuestionID": "Question 59",
-        "Question": "How can developers define their own custom exceptions in C#?",
-        "Options": [
-          "By using generic catch blocks",
-          "By using the throw keyword",
-          "By creating a class that inherits from the Exception class",
-          "By using the finally keyword"
-        ],
-        "Answer": "By creating a class that inherits from the Exception class"
-    },
-    {
-        "QuestionID": "Question 60",
-        "Question": "What is the primary purpose of the 'try' block in a try-catch structure?",
-        "Options": [
-          "To catch and handle exceptions",
-          "To specify code that might throw an exception",
-          "To define custom exceptions",
-          "To execute code regardless of exceptions"
-        ],
-        "Answer": "To specify code that might throw an exception"
-    },
-    {
-        "QuestionID": "Question 61",
-        "Question": "What is the primary purpose of the 'catch' block in a try-catch structure?",
-        "Options": [
-          "To specify code that might throw an exception",
-          "To execute code regardless of exceptions",
-          "To catch and handle exceptions",
-          "To define custom exceptions"
-        ],
-        "Answer": "To catch and handle exceptions"
-    }     
+      "Answer": "Not found"
+  },
+  {
+  "QuestionID": "Question 38",
+  "Question": "What is the time complexity of Bubble Sort in the worst case scenario?",
+  "Options": [
+      "O(n^2)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "Answer": "O(n^2)"
+  },
+  {
+      "QuestionID": "Question 39",
+      "Question": "Which of the following best describes Bubble Sort?",
+      "Options": [
+          "It selects the smallest element and places it at the beginning.",
+          "It divides the list into sorted and unsorted parts.",
+          "It repeatedly swaps adjacent elements if they are in the wrong order.",
+          "It creates a tree structure to sort elements."
+      ],
+      "Answer": "It repeatedly swaps adjacent elements if they are in the wrong order."
+  },
+  {
+      "QuestionID": "Question 40",
+      "Question": "What is the primary advantage of Bubble Sort?",
+      "Options": [
+          "It is the fastest sorting algorithm.",
+          "It is useful for extremely large datasets.",
+          "It is simple to understand and implement.",
+          "It does not require extra memory for sorting."
+      ],
+      "Answer": "It is simple to understand and implement."
+  },
+  {
+  "QuestionID": "Question 41",
+  "Question": "After the first pass of Bubble Sort on the array [5, 3, 8, 4, 2], what will the array look like?",
+  "Options": [
+      "[3, 5, 4, 2, 8]",
+      "[5, 3, 4, 2, 8]",
+      "[3, 5, 8, 4, 2]",
+      "[2, 3, 4, 5, 8]"
+      ],
+      "Answer": "[5, 3, 4, 2, 8]"
+  },
+  {
+    "QuestionID": "Question 42",
+    "Question": "How many total swaps are required to sort the array [3, 2, 1, 5, 4] using Bubble Sort?",
+    "Options": [
+        "6",
+        "10",
+        "4",
+        "7"
+    ],
+    "Answer": "6"
+  },
+  {
+    "QuestionID": "Question 43",
+    "Question": "In which pass of Bubble Sort will the largest element of the array [4, 6, 1, 5, 3] reach its correct position?",
+    "Options": [
+        "First pass",
+        "Second pass",
+        "Third pass",
+        "Fourth pass"
+    ],
+    "Answer": "First pass"
+  },
+  {
+    "QuestionID": "Question 44",
+    "Question": "What is a key feature of a recursive function?",
+    "Options": [
+        "It always contains a loop.",
+        "It calls itself within its body.",
+        "It cannot have any parameters.",
+        "It is faster than iterative solutions."
+    ],
+    "Answer": "It calls itself within its body."
+  },
+  {
+      "QuestionID": "Question 45",
+      "Question": "What is essential for a recursive function to avoid infinite recursion?",
+      "Options": [
+          "A global variable",
+          "A return statement",
+          "A base case",
+          "Multiple parameters"
+      ],
+      "Answer": "A base case"
+  },
+  {
+      "QuestionID": "Question 46",
+      "Question": "In the context of recursion, what is stack overflow?",
+      "Options": [
+          "When the program runs out of memory due to too many recursive calls",
+          "A common error when the function returns the wrong value",
+          "An issue when the function does not have a return statement",
+          "A problem related to incorrect base case"
+      ],
+      "Answer": "When the program runs out of memory due to too many recursive calls"
+  },
+  {
+      "QuestionID": "Question 47",
+      "Question": "What does the term 'tail recursion' refer to?",
+      "Options": [
+          "A recursive call not in the tail position",
+          "A recursion where the function calls itself multiple times in one statement",
+          "A recursion where the last operation of a function is a recursive call",
+          "A recursion that does not have a base case"
+      ],
+      "Answer": "A recursion where the last operation of a function is a recursive call"
+  },
+  {
+      "QuestionID": "Question 48",
+      "Question": "Which of the following is a disadvantage of recursion compared to iteration?",
+      "Options": [
+          "More memory usage due to stack frames",
+          "Recursion cannot be used for complex algorithms",
+          "Recursion is always slower than iteration",
+          "Recursion cannot have multiple base cases"
+      ],
+      "Answer": "More memory usage due to stack frames"
+  },
+  {
+      "QuestionID": "Question 49",
+      "Question": "Which of these scenarios is most suitable for a recursive approach?",
+      "Options": [
+          "Calculating the sum of all elements in an array",
+          "Implementing a binary search on a sorted array",
+          "Sorting a small list of items",
+          "Solving problems with a tree-like structure"
+      ],
+      "Answer": "Solving problems with a tree-like structure"
+  },
+  {
+    "QuestionID": "Question 50",
+    "Question": "What is the output of the following Java function when called with the argument 5?\n`int func(int n) { if (n == 1) return 1; else return n + func(n - 1); }`",
+    "Options": [
+        "5",
+        "15",
+        "10",
+        "None of the above"
+    ],
+    "Answer": "15"
+  },
+  {
+    "QuestionID": "Question 51",
+    "Question": "How many recursive calls are made when the following Java function is called with func(3)\n`void func(int n) { if (n > 0) { System.out.println(n); func(n - 1); } }`",
+    "Options": [
+        "2",
+        "3",
+        "4",
+        "1"
+    ],
+    "Answer": "3"
+  },
+  {
+    "QuestionID": "Question 52",
+    "Question": "Consider the recursive Java function:\n`int fibonacci(int n)<br>{ if (n <= 1) return n; else return fibonacci(n - 1) + fibonacci(n - 2); }`\nWhat is the result of `fibonacci(5)`?",
+    "Options": [
+        "3",
+        "5",
+        "8",
+        "13"
+    ],
+    "Answer": "5"
+  },
+  {
+    "QuestionID": "Question 53",
+    "Question": "What is the number of recursive calls in the execution of `factorial(4)` with the following Java method?\n`int factorial(int n) { if (n == 1) return 1; else return n * factorial(n - 1); }`",
+    "Options": [
+        "3",
+        "4",
+        "5",
+        "2"
+    ],
+    "Answer": "4"
+  },
+  {
+      "QuestionID": "Question 54",
+      "Question": "What is the base case in the following Java recursive method for calculating the power of a number?\n`int power(int base, int exp) { if (exp == 0) return 1; else return base * power(base, exp - 1); }`",
+      "Options": [
+          "`base == 0`",
+          "`exp == 0`",
+          "`base == 1`",
+          "`exp == 1`"
+      ],
+      "Answer": "`exp == 0`"
+  },
+  {
+      "QuestionID": "Question 55",
+      "Question": "What will be the total sum returned by the following recursive Java function when called with `sum(3)`?\n`int sum(int n) { if (n <= 0) return 0; else return n + sum(n - 2); }`",
+      "Options": [
+          "2",
+          "3",
+          "4",
+          "6"
+      ],
+      "Answer": "4"
+  },
+  {
+      "QuestionID": "Question 56",
+      "Question": "How does using generics contribute to type safety in programming?",
+      "Options": [
+        "By allowing any data type to be used",
+        "By requiring the use of dynamic typing",
+        "By enabling the compiler to catch type-related errors at compile time",
+        "By removing the need for data types"
+      ],
+      "Answer": "By enabling the compiler to catch type-related errors at compile time"
+  },
+  {
+      "QuestionID": "Question 57",
+      "Question": "In C#, what is the syntax for defining a generic class?",
+      "Options": [
+        "class MyGenericClass<T> { }",
+        "class MyGenericClass { }",
+        "generic class MyGenericClass { }",
+        "class MyGenericClass<T> = new MyGenericClass<T>()"
+      ],
+      "Answer": "class MyGenericClass<T> { }"
+  },
+  {
+      "QuestionID": "Question 58",
+      "Question": "What is the purpose of exception handling in programming?",
+      "Options": [
+        "To create intentional errors",
+        "To manage and respond to runtime errors",
+        "To hide errors during compilation",
+        "To simplify code execution"
+      ],
+      "Answer": "To manage and respond to runtime errors"
+  },
+  {
+      "QuestionID": "Question 59",
+      "Question": "How can developers define their own custom exceptions in C#?",
+      "Options": [
+        "By using generic catch blocks",
+        "By using the throw keyword",
+        "By creating a class that inherits from the Exception class",
+        "By using the finally keyword"
+      ],
+      "Answer": "By creating a class that inherits from the Exception class"
+  },
+  {
+      "QuestionID": "Question 60",
+      "Question": "What is the primary purpose of the 'try' block in a try-catch structure?",
+      "Options": [
+        "To catch and handle exceptions",
+        "To specify code that might throw an exception",
+        "To define custom exceptions",
+        "To execute code regardless of exceptions"
+      ],
+      "Answer": "To specify code that might throw an exception"
+  },
+  {
+      "QuestionID": "Question 61",
+      "Question": "What is the primary purpose of the 'catch' block in a try-catch structure?",
+      "Options": [
+        "To specify code that might throw an exception",
+        "To execute code regardless of exceptions",
+        "To catch and handle exceptions",
+        "To define custom exceptions"
+      ],
+      "Answer": "To catch and handle exceptions"
+  }     
 ]

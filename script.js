@@ -26,6 +26,11 @@ fetch(jsonFile)
     console.error('Error fetching JSON:', error);
   });
 
+function processText(text) {
+  return text.replace(/`([^`]*)`/g, '<br><code>$1</code><br>');
+}
+
+
 function createQuestionCards(questions) {
   const container = document.querySelector('.container-fluid .card-container');
 
@@ -43,7 +48,7 @@ function createQuestionCards(questions) {
     const body = document.createElement('div');
     body.classList.add('mcq-card-body');
     const questionText = document.createElement('p');
-    questionText.textContent = question.Question;
+    questionText.innerHTML = processText(question.Question);
     body.appendChild(questionText);
 
     const optionsContainer = document.createElement('div');
@@ -58,7 +63,7 @@ function createQuestionCards(questions) {
       input.id = `option${question.QuestionID}-${index + 1}`;
       const label = document.createElement('label');
       label.htmlFor = input.id;
-      label.textContent = option;
+      label.innerHTML = processText(option);
 
       optionElement.appendChild(input);
       optionElement.appendChild(label);

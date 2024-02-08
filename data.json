@@ -788,6 +788,6 @@
             "By manually setting each node's next to null",
             "By iterating through the list and removing each element"
         ],
-        "Answer": "By setting the head to null or by using the clear() method"
+        "Answer": "By setting the head to null"
     }
 ]

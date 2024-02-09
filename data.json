@@ -777,7 +777,7 @@
             "`Node head = new Node(5); head.next = 10;`",
             "`Node head = new Node(5); head.next.data = 10;`"
         ],
-        "Answer": "`Node head = new Node(5); head.next = new Node(10);`"
+        "Answer": "Node head = new Node(5); head.next = new Node(10);"
     },
     {
         "QuestionID": "Question 71",

@@ -601,7 +601,7 @@
           "`base == 1`",
           "`exp == 1`"
       ],
-      "Answer": "`exp == 0`"
+      "Answer": "exp == 0"
   },
   {
       "QuestionID": "Question 55",

@@ -103,9 +103,9 @@
           "A for-loop",
           "A while-loop",
           "A do-while loop",
-          "A foreach loop"
+          "An if statement"
       ],
-      "Answer": "A while-loop"
+      "Answer": "An if statement"
   },
   {
       "QuestionID": "Question 10",
